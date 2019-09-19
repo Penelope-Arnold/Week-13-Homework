@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Page</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1 class="text-center"><i class="fa fa-female"></i> Friend Finder <i class="fa fa-male"></i></h1>
+            <hr>
+            <h2 id="jumbo_h2" class="text-center">Let's get started - Fill out the survey</h2>
+            <br>
+
+            <div class="text-center">
+                <a href="/home"><button type="button" class="btn btn-lg btn-primary"><span></span>Home</button></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+
+                
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><strong>Friend Finder Survery<strong></h3>
+                    </div>
+
+                    <div class="panel-body">
+                        <form role="form">
+
+                        <h3><strong>About You</strong></h3>
+                        <h3>Name (Required)</h3>
+                        <input type="text" name="" id="name" class="form-control" required >
+
+                        <h3>Link to Photo Image (Required)</h3>
+                        <input type="text" name="" id="photo" class="form-control" required >
+                        <hr>
+
+                        <h3><strong>Survey Questions</strong></h3>
+                        <hr>
+
+                        <h3>1. You want a friend who is always ready to help you.</h3>
+                        <select data-placeholder="" class="chosen-select" id="q1">
+                            <option value=""></option>
+                            <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <h3>2. You like dogs.</h3>
+                        <select data-placeholder="" class="chosen-select" id="q2">
+                            <option value=""></option>
+                            <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <h3>3. You are an Extrovert.</h3>
+                        <select data-placeholder="" class="chosen-select" id="q3">
+                            <option value=""></option>
+                            <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <h3>4. You are an Introvert.</h3>
+                        <select data-placeholder="" class="chosen-select" id="q4">
+                            <option value=""></option>
+                            <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <h3>5. You like horror movies.</h3>
+                        <select data-placeholder="" class="chosen-select" id="q5">
+                            <option value=""></option>
+                            <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <h3>6. You prefer being active.</h3>
+                        <select data-placeholder="" class="chosen-select" id="q6">
+                            <option value=""></option>
+                            <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <h3>7. You prefer lunch dates.</h3>
+                        <select data-placeholder="" class="chosen-select" id="q7">
+                            <option value=""></option>
+                            <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <h3>8. You like cats.</h3>
+                        <select data-placeholder="" class="chosen-select" id="q8">
+                            <option value=""></option>
+                            <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <h3>9. You enjoy alcoholic beverages.</h3>
+                        <select data-placeholder="" class="chosen-select" id="q9">
+                            <option value=""></option>
+                            <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <h3>10. You want a friend who is very different than you.</h3>
+                        <select data-placeholder="" class="chosen-select" id="q10">
+                            <option value=""></option>
+                            <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+
+                        <br>
+                        <br>
+
+                    <div class="text-center">
+                        <button type="submit" id="submit" class="btn btn-lg btn-primary"><span></span>Submit</button>
+                     </div>
+                </form>
+
+
+                <div id="resultsModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+              
+                      <!-- Modal content-->
+                      <div class="modal-content" id="results-modal">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">X</button>
+                          <h2 class="modal-title"><strong>Your New BFF is</strong></h2>
+                        </div>
+                        <div class="modal-body">
+                          <h2 id="match-name"></h2>
+                          <img id="match-img" src ="" alt="" height="350" width="300">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" id="closeModal" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+              
+                    </div>
+                  </div>
+
+                  <footer class="footer">
+                      
+                  </footer>
+
+ <script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+
+<script>
+    //on click for modal 
+    //post 
+     //function to compare 
+     //send bff match - modal pops up
+    $("#submit").on("click", function(event){
+        event.preventDefault();
+        console.log("you clicked submit")
+
+
+        var newFriend = {
+            name: $("#name").val(),
+            photo:$("#photo").val(),
+            scores: [
+            $("#q1").val(),
+            $("#q1").val(),
+            $("#q2").val(),
+            $("#q3").val(),
+            $("#q4").val(),
+            $("#q5").val(),
+            $("#q6").val(),
+            $("#q7").val(),
+            $("#q8").val(),
+            $("#q9").val(),
+            $("#q10").val(),
+        ]
+        };
+        console.log(newFriend)
+
+        //var currentURL = window.location.origin;
+
+        $.post("/api/friends", newFriend, function(data){
+            
+        }).then(function(response){
+            $("#match-name").text(response.name);
+            $("#match-img").attr("src",response.photo);
+            $("#results-modal").modal("toggle");
+
+        })
+    })
+</script>
