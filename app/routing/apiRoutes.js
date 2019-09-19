@@ -30,7 +30,7 @@ module.exports = function(app){
                     minDiff = totalDiff
                 } 
             }
-            return index;
+            return bffIndex;
         
         
         
